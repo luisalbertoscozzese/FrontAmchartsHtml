@@ -1,0 +1,31 @@
+#dataTable {
+  top: 0;
+  overflow: auto;
+  width: 100%;
+  height: 300px;
+}
+
+thead th {
+  font-size: small;
+  position: sticky;
+  top: 0;
+  background-color: #797675;
+  color: white;
+  padding: 5px 10px;
+  width: 50%;
+  white-space: nowrap;
+}
+
+#fillColumn {
+  width: 100%;
+}
+
+table tr:nth-child(even) {
+  font-size: small;
+  background-color: #f2f2f2;
+}
+
+table tr:nth-child(odd) {
+  font-size: small;
+  background-color: #ffffff;
+}

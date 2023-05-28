@@ -1,0 +1,19 @@
+ #button-reload {
+    width: 50px;
+    height: 50px;
+    background-image: url('img/symbol-reload.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 1;
+    transition: opacity 0.2s ease-out;
+    align-self: self-end;
+    z-index: 1;
+  }
+  
+  #button-reload.clicked {
+    opacity: 0;
+  }
+
+  #button-reload:hover {
+    filter: opacity(0.6);
+  } 
